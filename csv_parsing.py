@@ -145,7 +145,7 @@ def save_department_summary_to_csv(department_data: Dict[str, dict],
               mode="w",
               newline="",
               encoding="utf8") as summary_report_file:
-        writer = csv.writer(summary_report_file, delimiter=';')
+        writer = csv.writer(summary_report_file, delimiter=";")
         writer.writerow([
             "Департамент",
             "Численность",
@@ -156,7 +156,7 @@ def save_department_summary_to_csv(department_data: Dict[str, dict],
 
         for department, data in department_data.items():
             formatted_data = format_department_summary(data)
-            writer.writerow([department, *formatted_data.split('\n')])
+            writer.writerow([department, *formatted_data.split("\n")])
 
     print(f"Сводный отчет сохранен в файл '{filename}'")
 
