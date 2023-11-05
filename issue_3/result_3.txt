@@ -1,0 +1,10 @@
+python -m unittest -v issue_3.py
+test_algo (python_basic.HomeWork_OutOfRep.HomeWork_4.issue_3.issue_3.TestOneHotEncoder) ... ok
+test_class (python_basic.HomeWork_OutOfRep.HomeWork_4.issue_3.issue_3.TestOneHotEncoder) ... ok
+test_empty (python_basic.HomeWork_OutOfRep.HomeWork_4.issue_3.issue_3.TestOneHotEncoder) ... ok
+test_subjects (python_basic.HomeWork_OutOfRep.HomeWork_4.issue_3.issue_3.TestOneHotEncoder) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.005s
+
+OK
