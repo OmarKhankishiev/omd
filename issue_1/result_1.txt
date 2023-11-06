@@ -1,4 +1,4 @@
-$ python -m doctest -v -o ELLIPSIS issue_1.py
+python -m doctest -v -o ELLIPSIS issue_1.py
 Trying:
     encode('SOS') # doctest: +ELLIPSIS
 Expecting:

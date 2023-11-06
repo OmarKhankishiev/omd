@@ -1,4 +1,4 @@
-$ python -m pytest -v issue_2.py
+python -m pytest -v issue_2.py
 ==================================================================================== test session starts ==================================================================================== 
 platform win32 -- Python 3.9.7, pytest-7.4.3, pluggy-1.3.0 -- D:\python.exe
 cachedir: .pytest_cache

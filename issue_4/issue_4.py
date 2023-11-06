@@ -32,7 +32,7 @@ def test_math():
 
 
 @pytest.mark.parametrize(
-    'what, result',
+    'input, output',
     [
         (
             ['Math', 'Python', 'ML', 'Algo', 'Python'],
@@ -47,8 +47,8 @@ def test_math():
         ('Extra subject', [('Extra subject', [1])]),
     ],
 )
-def test_subjects(what, result):
-    assert fit_transform(what) == result
+def test_subjects(input, output):
+    assert fit_transform(input) == output
 
 
 def test_empty():
