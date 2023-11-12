@@ -1,0 +1,35 @@
+python -m doctest -v -o ELLIPSIS issue_1.py
+Trying:
+    encode('SOS') # doctest: +ELLIPSIS
+Expecting:
+    '... --- ...'
+ok
+Trying:
+Expecting:
+    '.... .-.. .-- .-. .-.. -..'
+ok
+Trying:
+    encode(-1)
+Expecting:
+    Traceback (most recent call last):
+    ...
+    TypeError: 'int' object is not iterable
+ok
+Trying:
+    encode('')  # Для пустой строки функция возвращает пустую строку
+Expecting:
+    ''
+ok
+Trying:
+    encode('ДЗ')  # кириллицы в словаре нет, будет исключение
+Expecting:
+    Traceback (most recent call last):
+    KeyError: 'Д'
+ok
+1 items had no tests:
+    issue_1
+1 items passed all tests:
+   5 tests in issue_1.encode
+5 tests in 2 items.
+5 passed and 0 failed.
+Test passed.
