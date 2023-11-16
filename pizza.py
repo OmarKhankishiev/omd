@@ -62,24 +62,24 @@ class Margherita(Pizza):
     """
     A class representing a Margherita pizza.
     """
-    receipt = ["tomato sauce", "mozzarella", "tomatoes"]
-    img = "🧀"
+    receipt = ['tomato sauce', 'mozzarella', 'tomatoes']
+    img = '🧀'
 
 
 class Pepperoni(Pizza):
     """
     A class representing a Pepperoni pizza.
     """
-    receipt = ["tomato sauce", "mozzarella", "pepperoni"]
-    img = "🍕"
+    receipt = ['tomato sauce', 'mozzarella', 'pepperoni']
+    img = '🍕'
 
 
 class Hawaiian(Pizza):
     """
     A class representing a Hawaiian pizza.
     """
-    receipt = ["tomato sauce", "mozzarella", "chicken", "pineapple"]
-    img = "🍍"
+    receipt = ['tomato sauce', 'mozzarella', 'chicken', 'pineapple']
+    img = '🍍'
 
 
 def log(message_struc: str):
@@ -89,7 +89,7 @@ def log(message_struc: str):
             result = function(*args, **kwargs)
             end_point = time.time()
             duration = end_point - start_point
-            message = f"{message_struc} {duration:.0f} c!"
+            message = f'{message_struc} {duration:.0f} c!'
             print(message)
             return result
 

@@ -17,20 +17,20 @@ class Menu:
         The pizza image, available sizes, and ingredients.
         """
         recipes = {
-            "Margherita": (
-                "🧀",
-                ("L", "XL"),
-                ["tomato sauce", "mozzarella", "tomatoes"],
+            'Margherita': (
+                '🧀',
+                ('L', 'XL'),
+                ['tomato sauce', 'mozzarella', 'tomatoes'],
             ),
-            "Pepperoni": (
-                "🍕",
-                ("L", "XL"),
-                ["tomato sauce", "mozzarella", "pepperoni"],
+            'Pepperoni': (
+                '🍕',
+                ('L', 'XL'),
+                ['tomato sauce', 'mozzarella', 'pepperoni'],
             ),
-            "Hawaiian": (
-                "🍍",
-                ("L", "XL"),
-                ["tomato sauce", "mozzarella", "chicken", "pineapple"],
+            'Hawaiian': (
+                '🍍',
+                ('L', 'XL'),
+                ['tomato sauce', 'mozzarella', 'chicken', 'pineapple'],
             ),
         }
         return recipes
